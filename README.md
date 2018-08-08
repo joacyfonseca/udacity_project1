@@ -1,1 +1,1 @@
-# udacity_project1
+This is project 1 of Udacity. In this project we investigated the data of a bicycle sharing system in the largest cities in the United States: Chicago, New York and Washington. I created a code to import data and analyze it, I created a code to receive a raw input to create an interaction through the terminal, in order to present the results.
