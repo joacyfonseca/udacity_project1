@@ -1,28 +1,23 @@
 # coding: utf-8
 
-# Começando com os imports
+# Imports
 import csv
 import matplotlib.pyplot as plt
 
-# Vamos ler os dados como uma lista
-print("Lendo o documento...")
+# Reading the Data
+print("Reading the Document")
 with open("chicago.csv", "r") as file_read:
     reader = csv.reader(file_read)
     data_list = list(reader)
 print("Ok!")
 
-# Vamos verificar quantas linhas nós temos
-print("Número de linhas:")
+# Verify the dimension of the dataset
+print("Number of Lines")
 print(len(data_list))
 
 # Imprimindo a primeira linha de data_list para verificar se funcionou.
-print("Linha 0: ")
+print("Header")
 print(data_list[0])
-# É o cabeçalho dos dados, para que possamos identificar as colunas.
-
-# Imprimindo a segunda linha de data_list, ela deveria conter alguns dados
-print("Linha 1: ")
-print(data_list[1])
 
 input("Aperte Enter para continuar...")
 # TAREFA 1
